@@ -394,7 +394,7 @@ Uri: https://aparnakaushik.com/images\logo.png
 File Name: C:\Downloaded Web Sites\aparnakaushik.com\front\images\logo1.png
 Content Type: image/png
 
-Uri: https://aparnakaushik.com/front/images/logo_abut.png
+Uri: https://aparnakaushik.com/images\logo.png
 File Name: C:\Downloaded Web Sites\aparnakaushik.com\front\images\logo_abut.png
 Content Type: image/png
 

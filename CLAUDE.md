@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a static HTML website for Aparna Kaushik, a luxury architecture and interior design firm. The site was downloaded/archived from aparnakaushik.com.
 
-## Architecture
+## Architectureds
 
 **Static HTML Site Structure:**
 - `index.html` - Homepage with animated logo intro, banner carousel, and portfolio slider

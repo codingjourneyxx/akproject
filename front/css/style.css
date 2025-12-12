@@ -23,7 +23,7 @@
     max-width: 1310px;
     width: 100%;
 }
-.header{position:absolute; top:0; left:0; width:100%; z-index:2; }
+.header{position:fixed; top:0 !important; left:0; width:100%; z-index:999; }
 /*.logo{ position:absolute; top:30px; width:100%; text-align:center;}*/
 .logo {
     position: fixed;

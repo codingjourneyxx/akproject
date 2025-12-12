@@ -1,0 +1,454 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+@font-face {
+  font-family: 'FuturaLT';
+  src: url('../fonts/FuturaLT.eot');
+  src: url('../fonts/FuturaLT-1.eot') format('embedded-opentype'),
+       url('../fonts/FuturaLT.svg') format('svg'),
+       url('../fonts/FuturaLT.ttf') format('truetype'),
+       url('../fonts/FuturaLT.woff') format('woff'),
+       url('../fonts/FuturaLT.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FuturaLT-Bold';
+  src: url('../fonts/FuturaLT-Bold.eot');
+  src: url('../fonts/FuturaLT-Bold-1.eot') format('embedded-opentype'),
+       url('../fonts/FuturaLT-Bold.svg') format('svg'),
+       url('../fonts/FuturaLT-Bold.ttf') format('truetype'),
+       url('../fonts/FuturaLT-Bold.woff') format('woff'),
+       url('../fonts/FuturaLT-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('../fonts/FuturaBT-Light.eot');
+    src: url('../fonts/FuturaBT-Light-1.eot') format('embedded-opentype'),
+        url('../fonts/FuturaBT-Light.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Light.woff') format('woff'),
+        url('../fonts/FuturaBT-Light.ttf') format('truetype'),
+        url('../fonts/FuturaBT-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/FuturaBT-MediumItalic.eot');
+    src: url('../fonts/FuturaBT-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaBT-MediumItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-MediumItalic.woff') format('woff'),
+        url('../fonts/FuturaBT-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.pic img{width: 100%;}
+.viewer-title {
+    display: none !important;
+}
+.viewer-button {
+    background-color: #00767c !important;
+}
+.viewer-container {
+    z-index: 9999999999 !important;
+}
+.viewer-list.viewer-transition {
+    display: none;
+}
+li.viewer-one-to-one, li.viewer-reset, li.viewer-rotate-left, li.viewer-rotate-right, li.viewer-flip-horizontal, li.viewer-flip-vertical {
+    display: none;
+}
+.viewer-toolbar {
+    width: 133px !important;
+}
+.viewer-title {
+    font-size: 20px !important;
+    color: #fff !important;
+    margin-bottom: 25px !important;
+}
+
+
+
+
+img {display:inline-block;  margin:0; vertical-align:top;}
+
+a {text-decoration:none;}
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+.flt{float:left;}
+.fltr{float:right;}
+.clr{clear:both;}
+ol, ul{margin:0; padding:0;}
+a:hover{text-decoration:none;}
+a:focus{text-decoration:none;}
+ul li{list-style:none;}
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; }
+
+
+a, a:hover, a:focus{text-decoration: none;}
+* {
+    outline: 0;
+}
+.img img{width: 100%;}
+
+
+
+
+body {
+    height: 100%;
+    margin: 0;
+    background: #fff;
+    font-family: 'Futura Lt BT';
+}
+body h1 {
+    font-size: 80px;
+    line-height: 90px;
+    color: #a18971;
+    margin-bottom: 0px;
+    font-weight: 3;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: 'Futura Lt BT';
+    font-weight: 300;
+}
+.block, .block h1 {
+    color: #000;
+}
+body h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #a18971;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.uppercase{font-weight: 500; text-transform: uppercase;}
+
+body h3 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #a18971;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+body h4 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom:10px;
+}
+
+body h5 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+body h6 {
+    font-size: 17px;
+    color: #4f4f4f;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+body p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.pd_tp_0{padding-top: 0px;}
+
+.mg_tp_0{margin-top: 0px;}
+.mg_tp_15{margin-top: 15px;}
+.mg_tp_25{margin-top: 25px;}
+.mg_tp_35{margin-top: 35px;}
+.mg_tp_40{margin-top: 40px;}
+
+.mg_bt_0{margin-bottom: 0px;}
+.mg_bt_15{margin-bottom: 15px;}
+.mg_bt_25{margin-bottom: 25px;}
+.mg_bt_35{margin-bottom: 35px;}
+.mg_bt_40{margin-bottom: 40px;}
+
+.padding_0{padding: 0;}
+.margin_0{margin:0;}
+.btn_div {
+    margin-top: 25px;
+    text-align: center;
+}
+.sub_btn {
+    font-size: 13px;
+    color: #ffffff;
+    border-radius: 0;
+    transition: 0.5s all ease;
+    line-height: 20px;
+    display: flex;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 40px;
+    width: 136px;
+    padding: 10px 15px 10px;
+    text-align: center;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: rgb(161 137 113 / 0.50);
+    font-weight: 500;
+    letter-spacing: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub_btn2 {
+    width: auto;
+    display: inline-block;
+    background: #ffd435;
+    border-radius: 5px;
+    padding: 19px 35px 17px 35px;
+    color: #282828;
+    font-size: 15px;
+    line-height: 21px;
+    height: auto;
+    overflow: hidden;
+}
+.sub_btn img {
+    max-width: 18px;
+}   
+.sub_btn2 span {
+    display: inline-block;
+    float: right;
+    margin: 3px 0 0 11px;
+}
+.sub_btn2:after{display: none;}
+.sub_btn_brd {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-right: 0;
+    position: relative;
+    transition: 0.5s all ease;
+}
+.sub_btn_brd:hover:before, 
+.sub_btn_brd:hover:after {
+    height: 50%;
+    transition: 0.5s all ease;
+}
+
+.sub_btn_brd:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35%;
+    width: 1px;
+    background: #fff;
+    content: "";
+    transition: 0.5s all ease;
+}
+.sub_btn_brd:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 35%;
+    width: 1px;
+    background: #fff;
+    content: "";
+    transition: 0.5s all ease;
+}
+.sub_btn span{
+    display: inline-block;
+    margin-right: 10px;
+}
+/*.sub_btn:after {
+    position: absolute;
+    top: 27px;
+    left: 122px;
+    width: 78px;
+    height: 1px;
+    background: #fff;
+    content: "";
+    z-index: 9;
+    transition: 0.5s all ease;
+}*/
+.sub_btn:hover:after {
+    width: 26px;
+    transition: 0.5s all ease;
+}
+
+/*.sub_btn:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.sub_btn:hover:before{
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    color: #fff;
+}*/
+
+.sub_btn:hover, .cont_form_in .sub_btn:hover{
+    color: #fff;
+    transition: 0.5s all ease;
+    background: #000;
+}
+footer .sub_btn:hover, .insghits_slider .sub_btn:hover {
+    background: #444;
+}
+input.sub_btn {
+    background: transparent;
+    color: #333;
+}
+.pic img {
+    width: 100%;
+}
+
+
+
+.all_botton .owl-dots {
+    position: absolute;
+    bottom: -38px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    margin: 0;
+}
+
+.all_botton .owl-dot {
+    display: inline-block;
+    width: 36px;
+    height: 2px;
+    background: #dcdcdc;
+    margin: 0 4px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 0px solid #dcdcdc;
+    border-radius:0px;
+}
+.all_botton .owl-dot.active {
+    background: #d2ab67;
+    height: 4px;
+}
+.all_nx_pr .owl-prev {
+    background: url(../images/prev-icon.png) no-repeat center center;
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    display: block;
+    font-size: 0;
+    display: inline-block;
+    transition: 0.5s all ease;;
+    background-size: 26px;
+    position: absolute;
+    top: 37%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+.all_nx_pr .owl-next {
+    background: url(../images/next-icon.png) no-repeat center center;
+    width: 33px;
+    height: 30px;
+    border-radius: 0;
+    display: block;
+    font-size: 0;
+    display: inline-block;
+    transition: 0.5s all ease;
+    background-size: 26px;
+    position: absolute;
+    top: 37%;
+    right:15px;
+    transform: translateY(-50%);
+}
+
+
+
+.service_bx a img, img.cont_map {
+    width: 100%;
+    overflow: hidden;
+    -webkit-transition: all 1.9s ease-out;
+    -moz-transition: all 1.9s ease-out;
+    -o-transition: all 1.9s ease-out;
+    transition: all 1.9s ease-out;
+}
+
+
+.service_bx a:hover img, .map_img a:hover img.cont_map{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}

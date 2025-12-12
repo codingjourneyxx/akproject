@@ -386,11 +386,11 @@ Uri: https://aparnakaushik.com/front/images/logo 2.png
 File Name: C:\Downloaded Web Sites\aparnakaushik.com\front\images\logo 2.png
 Content Type: image/png
 
-Uri: https://aparnakaushik.com/images\logo.webp
+Uri: https://aparnakaushik.com/images\logo.png
 File Name: C:\Downloaded Web Sites\aparnakaushik.com\front\images\logo.png
 Content Type: image/png
 
-Uri: https://aparnakaushik.com/images\logo.webp
+Uri: https://aparnakaushik.com/images\logo.png
 File Name: C:\Downloaded Web Sites\aparnakaushik.com\front\images\logo1.png
 Content Type: image/png
 
